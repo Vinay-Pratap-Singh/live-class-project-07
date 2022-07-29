@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+:root{
+    --primary-color : #fe5e35;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img:first-child{
+    margin: 0 50px;
+    width: 80px;
+    height: 70px;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.nav-item{
+    font-size: 0.9rem;
+    color: #757575;
+}
+
+.active-item{
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+nav img:last-child{
+    width: 20%;
+    margin: 0 15px;
+}
+
+/* Designing the Intro Section */
+.intro-section{
+    display: flex;
+    margin: 0 50px;
+    margin-top: 50px;
+}
+
+.left-section{
+    width:70%;
+}
+
+.left-section h3{
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+
+.left-section h3 img{
+    width: 40px;
+    height: 40px;
+}
+
+.left-section h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.sub-headline{
+    margin: 15px 45px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.sub-headline img{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: var(--primary-color);
+    margin: 0 15px;
+}
+
+.text{
+    padding-right: 20%;
+    font-weight: 100;
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.action-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.discount{
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    top: 300px;
+    left: 570px;
+}
+
+.discount-content{
+    position: relative;
+    z-index: 2;
+    top: 155px;
+    right: 170px;
+    font-weight: 900;
+    color: white;
+    line-height: 20px;
+}
+
+.discount-content h4{
+    font-size: 10px;
+}
+
+.discount-content h1{
+    font-size: 1.9rem;
+}
+
+.headphone-div img:last-child{
+    width: 370px;
+    height: 370px;
+    position: absolute;
+    z-index: -1;
+    top: 100px;
+    left: 600px;
+}
+
+.dots{
+    display: flex;
+    position: relative;
+    top: 280px;
+    right: 50px;
+}
+
+.dot{
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.yellow-dot{
+    background-color: #fbd104;
+}
+
+.tomato-dot{
+    background-color: #fe5e35;
+}
+
+.black-dot{
+    background-color: #000000;
+}
+
+.action-btn{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 25px;
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+}
+
+.left-section button{
+    margin: 0 15px;
+}
+
+.left-section button:last-child{
+    margin-right: 52%;
+}
+
+.right-section button{
+    position: relative;
+    top: 290px;
+    right: 50px;
+}
