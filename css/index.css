@@ -192,3 +192,143 @@ nav img:last-child{
     top: 290px;
     right: 50px;
 }
+
+/* Adding responsiveness to the website */
+@media only screen and (max-width: 600px) {
+    body{
+        height: auto;
+    }
+    
+    nav{
+        height: 50px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    nav img:first-child{
+        margin: 0;
+        padding: 5px 0;
+        padding-top: 40px;
+    }
+    
+    .nav-items{
+        width: 95vw;
+        justify-content: center;
+    }
+    
+    .nav-item{
+        font-size: 14px;
+        margin: 0 15px;
+    }
+    
+    nav img:last-child{
+        width: 95vw;
+        height: 30px;
+    }
+    
+    /* Designing the Intro Section */
+    .intro-section{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        margin-top: 50px;
+    }
+    
+    .left-section{
+        width: 100vw;
+        padding: 0 10px;
+    }
+    
+    .left-section h3{
+        font-size: 16px;
+    }
+    
+    .left-section h3 img{
+        width: 25px;
+        height: 25px;
+    }
+    
+    .left-section h1{
+        font-size: 1.5rem;
+    }
+    
+    .sub-headline{
+        margin: 10px 30px;
+        font-size: 16px;
+    }
+    
+    .sub-headline img{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .text{
+        width: 95vw;
+        padding: 0 10px;
+        margin: 20px 0;
+    }
+    
+    .action-btn{
+        width: fit-content;
+        margin: 0;
+        padding: 8px 20px;
+    }
+
+    .left-section button:last-child{
+        margin: 0;
+    }
+
+    .discount{
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        top: auto;
+        bottom: 0px;
+        left: 70px;
+    }
+    
+    .discount-content h1{
+        font-size: 14px;
+    }
+
+    .discount-content{
+        text-align: center;
+        position: absolute;
+        z-index: 2;
+        top: auto;
+        right: auto;
+        bottom: 10px;  
+        left: 82px;      
+    }
+    
+    .right-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .headphone-div img:last-child{
+        width: 300px;
+        height: 300px;
+        margin-top: 30px;
+        position: static;
+        z-index: -1;
+        top: 100px;
+        left: 600px;
+    }
+    
+    .dots{
+        position: static;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }    
+    
+    .right-section button{
+        position: static;
+        margin: 10px 0;
+    }    
+}
